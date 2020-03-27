@@ -1,3 +1,5 @@
+.rel {position:relative;}
+
 .navbar-inverse {
   background-color: #313E4F;
 }
@@ -6,3 +8,64 @@
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
 }
+
+.jumbotron {
+  background-color: #66BA9E;
+  margin-top: 30px;
+}
+
+.jumbotron img {
+  height: 200px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.jumbotron i {
+  font-size: 25px;
+}
+
+/* #jumboline {
+  border:2px solid white;
+  position: absolute;
+  top: 50%;
+} */
+
+.star {
+  min-width: 70px;
+  color: white;
+  display: inline-block;
+}
+
+.star i {
+  line-height: 2;
+}
+
+.jumbotron .star::before {
+  content:'';
+  width: 100px;
+  border: 2px solid white;
+  position: absolute;
+  top: 50%;
+  left: -100px;
+  display: inline-block;
+}
+
+.jumbotron .star::after {
+  content:'';
+  width: 100px;
+  border: 2px solid white;
+  position: absolute;
+  top: 50%;
+  right: -100px;
+  display: inline-block;
+}
+
+  .jumbotron p {
+    color: #fff;
+    font-size: 18px;
+    display: block;
+  }
