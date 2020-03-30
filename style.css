@@ -45,6 +45,12 @@ section {
 
 .rel {position:relative;}
 
+.whitespace {
+  padding-top: 30px;
+}
+
+/* END GENERAL RULES */
+
 .navbar-inverse {
   background-color: #313e4f;
 }
