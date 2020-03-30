@@ -2,9 +2,20 @@ body {
   color: #fff;
 }
 
+footer {
+  background-color: #2c3e50;
+  padding: 80px 0;
+}
+
 h2 {
   font-size: 2.3em;
   font-weight: 900;
+}
+
+h4 {
+  font-size: 1.7em;
+  font-weight: 900;
+  margin-top: 40px;
 }
 
 section {
@@ -110,4 +121,17 @@ section {
   margin: auto;
   margin-top: 20px;
   border-radius: 10px;
+}
+
+footer i {
+  padding: 10px;
+}
+
+footer a,
+footer i:hover {
+  color: #1abc9c;
+}
+
+footer a:hover {
+  color: #117964;
 }
