@@ -1,7 +1,45 @@
+body {
+  color: #fff;
+}
+
+h2 {
+  font-size: 2.3em;
+  font-weight: 900;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.altbg,
+.btn,
+.jumbotron {
+  background-color: #1abc9c;
+}
+
+.btn {
+  background-color: #1abc9c;
+  border-color: #fff;
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+.darktext {
+  color: #2c3e50;
+}
+
+.lead {
+  font-size: 1.2em;
+}
+
 .rel {position:relative;}
 
 .navbar-inverse {
-  background-color: #313E4F;
+  background-color: #313e4f;
+}
+
+.navbar-inverse .navbar-brand {
+  font-size: 1.4em;
 }
 
 .navbar-inverse .navbar-brand,
@@ -10,8 +48,8 @@
 }
 
 .jumbotron {
-  background-color: #66BA9E;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .jumbotron img {
@@ -19,53 +57,57 @@
 }
 
 .jumbotron h1 {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.jumbotron p {
   color: #fff;
-  font-size: 45px;
-  font-weight: 600;
+  font-size: 18px;
+  display: block;
 }
-
-.jumbotron i {
-  font-size: 25px;
-}
-
-/* #jumboline {
-  border:2px solid white;
-  position: absolute;
-  top: 50%;
-} */
 
 .star {
   min-width: 70px;
-  color: white;
   display: inline-block;
+}
+
+.star-separator {
+  padding-bottom: 20px;
 }
 
 .star i {
+  font-size: 25px;
   line-height: 2;
 }
 
-.jumbotron .star::before {
+.star::before,
+.star::after {
   content:'';
   width: 100px;
-  border: 2px solid white;
   position: absolute;
   top: 50%;
+  display: inline-block;
+  border: 2px solid #2c3e50;
+}
+
+.star::before {
   left: -100px;
-  display: inline-block;
 }
 
-.jumbotron .star::after {
-  content:'';
-  width: 100px;
-  border: 2px solid white;
-  position: absolute;
-  top: 50%;
+.star::after {
   right: -100px;
-  display: inline-block;
 }
 
-  .jumbotron p {
-    color: #fff;
-    font-size: 18px;
-    display: block;
-  }
+.whitestar.star::before,
+.whitestar.star::after {
+  border: 2px solid white;
+}
+
+.portfolio-img {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
